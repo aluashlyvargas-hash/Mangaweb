@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f1e8;
+  color: #333;
+}
+
+header {
+  background-color: #4d82bc;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.hero {
+  background: url("https://i.pinimg.com/originals/6e/cb/2a/6ecb2abced73e345736baaf114412f9d.gif") center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+}
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+  background: #eee;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+th {
+    background-color: #74A12E; /* Color del encabezado */
+    color: white;
+}
+
+
+video {
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
